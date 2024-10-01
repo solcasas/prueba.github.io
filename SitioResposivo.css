@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0 auto;
+	background: #FF2F0A;
+	margin: 30px;
+}
+#contenedor{
+	margin: 0 auto;
+	background: white;
+	max-width: 950px;
+	padding: 25px;
+}
+header{
+	height: 84px;
+}
+
+
+
+#logo{
+	height: 84px;
+	width: 351px;
+	float: left;
+}
+
+header ul{
+	width: 120px;
+	height: 64px;
+	float: right;
+	display: block;
+	padding: 0;
+	list-style: none;
+	padding-top: 20px;
+}
+
+header ul li{
+	float: right;
+}
+
+header li a{
+	width: 45px;
+	height: 45px;
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+
+nav{
+	height: 80px;
+	border-bottom: 4px solid #FF2F04;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 474px;
+	height: 60px;
+	background: #FF2F04;
+	display: block;
+	float: right;
+	padding-top: 20px;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a{
+	line-height: 40px;
+	display: block;
+	padding: 0 25px;
+	border-right: 4px solid white;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: black;
+}
+
+.limpiar{
+	clear: both;
+}
+
+.titulo{
+	display: block;
+	font-size: 30px;
+	color: #6d6d6d;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin: 6px;
+}
+
+article{
+	border-bottom: 5px solid #FF2F04;
+	padding: 10px 0;
+}
+
+#cajapresentacion{
+	width: 470px;
+	float: left;
+}
+#cajapresentacion h1{
+	font-size: 43px;
+	color: #FF3005;
+	font-weight: normal;
+
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin: 6px;
+	text-align: justify;
+}
+
+#banner{
+	width: 440px;
+	float: right;
+}
+
+
+
+.caja-proyectos{
+	width: 200px;
+	float: left;
+	border-top: 1px solid #FF2F04;
+	padding-top: 16px;
+	margin-right: 50px;
+}
+
+.caja-proyectos h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #464646;
+	margin: 6px;
+}
+
+.caja-proyectos a{
+	color: #848484;
+	text-decoration: none;
+}
+
+.caja-servicios{
+	width: 270px;
+	float: left;
+	border-top: 1px solid #FF2F04;
+	margin-right: 68px;
+	margin-bottom: 20px;
+}
+
+.caja-servcios-sm{
+	width: 270px;
+	float: left;
+	border-top: 1px solid #FF2F04;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+.caja-servicios h2, .caja-servcios-sm h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #727272;
+	margin: 15px 6px 6px 6px;
+}
+
+#contacto{
+	border-top: 5px solid #FF2F04;
+	padding: 10px 0;
+}
+#contacto h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin: 6px;
+}
+#contacto h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FF3005;
+	margin: 6px;
+	padding-bottom: 10px;
+}
+#contacto p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: black;
+	margin: 6px;
+	font-weight: 800;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	border-top: 1px solid #FF2F04;
+	padding-top: 10px;
+}
+
+
+footer{
+	height: 80px;
+	border-top: 5px solid #FF2F04;
+}
+
+.menupie{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 474px;
+	height: 60px;
+	background: #FF2F04;
+	display: block;
+	float: left;
+	padding-top: 20px;
+}
+
+.menupie li{
+	float: left;
+}
+
+.menupie li a{
+	line-height: 40px;
+	display: block;
+	padding: 0 25px;
+	border-right: 4px solid white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menupie li a:hover{
+	color: black;
+}
+
+.socialespie{
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	float: right;
+	display: block;
+	padding: 0;
+	list-style: none;
+	padding-top: 10px;
+}
+
+.socialespie ul li{
+	float: right;
+}
+
+.socialespie li a{
+	width: 45px;
+	height: 45px;
+	display: block;
+	float: right;
+	margin-left: 6px;
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		margin: 15px;
+	}
+	#contenedor{
+		width: 96%; padding: 2%;
+	}
+	header{
+		height: auto;
+	}
+	header ul{
+		display: none;
+	}
+	#logo{
+		height: auto; width: 100%; float: none;
+	}
+	
+	nav ul{
+		float: none; margin: 0 auto;
+	}
+
+	#cajapresentacion{
+		width: 100%; float: none;
+	}
+	#banner{
+		width: 100%; float: none;
+	}
+
+
+
+
+
+
+
+
+	/*SERVICIOS*/
+
+	.cajaservicios-sinmargen{
+		margin-right: 68px;
+	}
+
+	/*PIE*/
+	footer{
+		height: auto;
+	}
+	.menupie{
+		margin: 0 auto; float: none;
+	}
+
+	.socialespie{
+		width: 120px; height: 45px; display: block;
+		float: none; margin: 0 auto; padding: 0;
+		list-style: none; padding-top: 10px;
+	}
+
+
+	@media only screen and(max-width: 480px){
+		body{
+			margin: 8px;
+		}
+		#contenedor{
+			width: 98%; padding: 1%;
+		}
+		nav{
+			height: auto;  border-bottom: none;
+		}
+
+		nav ul{
+			width: 100%; height: auto;
+			background: none; float: none; padding-top: 0;
+		}
+		nav li{
+			float:none;
+		}
+		nav li a{
+			line-height: 30px; display: block; background: #FF2F04;
+			padding: 0; text-align: center; border-right: none;
+			font-size: 13px; margin-bottom: 4px;
+		}
+		#banner img{
+			width: 100%; height: auto;
+		}
+
+		/*PIE*/
+		.menupie{
+			width: 100%; height: auto; background:none;
+			font-size: 13px; margin-bottom: 4px; background: #FF2F04;
+			text-align: center;
+		}
+	}
+
+
+
+}
